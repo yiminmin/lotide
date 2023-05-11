@@ -1,15 +1,8 @@
-// FUNCTION IMPLEMENTATION
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`✅✅✅Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🛑🛑🛑Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
+//assertEqual function
+const assertEqual = require('./assertEqual');
 
-// TEST CODE
-// assertEqual("Lighthouse Labs", "Bootcamp");
-// assertEqual(1, 1);
+
+
 
 //Function eqArrays
 function eqArrays(arr1, arr2) {
@@ -33,5 +26,7 @@ function eqArrays(arr1, arr2) {
 
 }
 
-//Test result
-assertEqual(eqArrays([1,2,3],[1,2,3]), true); 
+
+
+//export
+module.exports = eqArrays;

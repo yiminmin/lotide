@@ -1,4 +1,9 @@
 // Define the takeUntil function, which takes an array and a callback function as parameters
+//The function will return a "slice of the array with elements taken from the beginning." It should keep going until the callback/predicate returns a truthy value.
+
+/*
+The function creates an empty results array, and iterates over the input array using a for...of loop. It checks if the callback function returns a truthy value for the current element. If it does, the function returns the results array. If not, it pushes the current element into the results array and continues to the next element.
+*/
 //这个函数是返回 callback  true 之前的所有false的值。
 const takeUntil = function(array, callback) {
   // Create an empty results array to hold the collected elements

@@ -15,6 +15,8 @@ const letterPosition = function(sentence) {
    return positions;
 };
 
-const sentence = "lighthouse in the house";
-const result = letterPosition(sentence);
-console.log(result);
+// const sentence = "lighthouse in the house";
+// const result = letterPosition(sentence);
+// console.log(result);
+
+module.exports = letterPosition;

@@ -12,6 +12,10 @@ const countLetters = function(sentence) {
   return counts;
 };
 
+const sentence = "hello world";
+const result1 = countLetters(sentence);
+console.log(result1);
+
 // AssertEqual FUNCTION IMPLEMENTATION
 const assertEqual = function(actual, expected) {
   if (actual === expected) {

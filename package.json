@@ -1,0 +1,28 @@
+{
+  "name": "@emilyyimin/lotide",
+  "version": "1.0.1",
+  "description": "",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.3.7"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yiminmin/lotide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yiminmin/lotide/issues"
+  },
+  "homepage": "https://github.com/yiminmin/lotide#readme"
+}
